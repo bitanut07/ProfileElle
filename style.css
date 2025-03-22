@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400%3B500%3B600&display=swap%27%29%3B');
-
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -88,9 +88,10 @@ nav a {
     font-size: 1.6rem;
     color: rgb(12, 1, 1);
     margin-left: 4rem;
-    font-weight: 500;
+    font-weight: 400;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
+    text-transform: uppercase; /* Chuyển thành chữ IN HOA */
 }
 
 nav a:hover,
@@ -137,6 +138,7 @@ span {
     margin-bottom: 1rem;
     font-weight: 700;
     color: black;
+    font-family: 'Pacifico', cursive;
 }
 
 .home .home-content p {
@@ -160,6 +162,17 @@ span {
     line-height: 1.5;
     text-align: justify;
     font-family: Calibri, sans-serif;
+}
+
+img {
+    width: 60%;
+    height: auto;
+
+    /* Để hình ảnh nằm giữa */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
 }
 
 .land-acknowledgement .custom-line {
@@ -221,9 +234,19 @@ span {
     margin-left: 10%;
 }
 
-footer {
+.footer-text {
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+}
+.footer-text p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.footer-profile {
     background-color: antiquewhite;
-    padding: 5rem 9%;
+    padding: 1rem 9% 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
