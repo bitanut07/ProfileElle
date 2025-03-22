@@ -140,11 +140,12 @@ span {
 }
 
 .home .home-content p {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
     color: black;
     font-weight: 500;
     line-height: 1.5;
+    font-family: Calibri, sans-serif;
 }
 
 .future-goals {
@@ -152,12 +153,13 @@ span {
 }
 
 .future-goals p {
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
     color: black;
     font-weight: 500;
     line-height: 1.5;
     text-align: justify;
+    font-family: Calibri, sans-serif;
 }
 
 .land-acknowledgement .custom-line {
@@ -179,6 +181,7 @@ span {
     font-weight: 700;
     color: black;
     text-align: center;
+    font-family: Calibri, sans-serif;
 }
 
 .land-acknowledgement p {
@@ -188,6 +191,7 @@ span {
     font-weight: 500;
     line-height: 1.5;
     text-align: justify;
+    font-family: Calibri, sans-serif;
 }
 
 .home-img {
@@ -196,7 +200,7 @@ span {
 
 .home-img img {
     position: relative;
-    width: 22.7vw;
+    width: 30vw;
     transform: translateY(+40px);
     border-radius: 50%;
     box-shadow: 0 0 25px solid #e09137f9;
