@@ -62,7 +62,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
+    padding: 1rem 3% 1rem 9%;
     background-color: antiquewhite; /* Thêm màu nền */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng giúp nhìn rõ hơn */
     display: flex;
@@ -84,7 +84,7 @@ header {
 }
 
 nav a {
-    font-size: 1.35rem;
+    font-size: 1.3rem;
     color: rgb(12, 1, 1);
     margin-left: 4rem;
     font-weight: 400;
@@ -214,7 +214,7 @@ img {
     position: relative;
     width: 30vw;
     transform: translateY(+40px);
-    border-radius: 50%;
+    border-radius: 47%;
     box-shadow: 0 0 25px solid #e09137f9;
     cursor: pointer;
     transition: 0.2 linear;
