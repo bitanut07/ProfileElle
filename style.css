@@ -44,32 +44,24 @@ body {
 }
 
 header {
-    /* margin-top: 10px;
-    margin-bottom: 20px;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1rem 9%;
-    background-color: transparent;
-    filter: drop-shadow(10px);
+    padding: 1rem 2rem;
+    background-color: antiquewhite;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    z-index: 100;
-    border-bottom: 2px solid #5a4a3b; */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 1rem 3% 1rem 9%;
-    background-color: antiquewhite; /* Thêm màu nền */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Đổ bóng giúp nhìn rõ hơn */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000; /* Đảm bảo header luôn ở trên */
+    z-index: 1000;
     border-bottom: 2px solid #5a4a3b;
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -285,6 +277,7 @@ img {
 }
 
 .cover-letter-resume,
+.teaching-learning-philosophy,
 .curriculum-pedagogy,
 .professional-learning,
 .references {
@@ -292,6 +285,7 @@ img {
 }
 
 .cover-letter-resume h1,
+.teaching-learning-philosophy h1,
 .curriculum-pedagogy h1,
 .professional-learning h1,
 .references h1 {
@@ -312,6 +306,7 @@ img {
 .cover-letter-resume p,
 .curriculum-pedagogy p,
 .professional-learning p,
+.teaching-learning-philosophy p,
 .references p {
     font-size: 4rem;
     margin-bottom: 2rem;
