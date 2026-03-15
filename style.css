@@ -75,20 +75,36 @@ header {
     transform: scale(1.1);
 }
 
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 2rem;
+}
+
 nav a {
     font-size: 1.3rem;
     color: rgb(12, 1, 1);
-    margin-left: 4rem;
+    margin-left: 0;
     font-weight: 400;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
-    text-transform: uppercase; /* Chuyển thành chữ IN HOA */
+    text-transform: uppercase;
+    white-space: normal;
 }
 
 nav a:hover,
 nav a.active {
     color: #e09137f9;
     border-bottom: 3px solid #e09137f9;
+}
+
+/* Khi màn hình hẹp: cho phép chữ trong link xuống dòng tại <wbr> */
+@media (max-width: 1400px) {
+    nav a {
+        max-width: 14em;
+        min-width: 0;
+    }
 }
 
 section {
