@@ -319,10 +319,32 @@ img {
     border-bottom: 1px solid #e09137f9;
 }
 
+.philosophy-text,
+.pedagogy-text {
+    padding: 0 5%;
+}
+
+.philosophy-text h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #e09137f9;
+    margin-bottom: 1.5rem;
+    font-family: 'Pacifico', cursive;
+}
+
+.philosophy-text p,
+.pedagogy-text p {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 500;
+    line-height: 1.8;
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    font-family: Georgia, serif;
+}
+
 .cover-letter-resume p,
-.curriculum-pedagogy p,
 .professional-learning p,
-.teaching-learning-philosophy p,
 .references p {
     font-size: 4rem;
     margin-bottom: 2rem;
