@@ -99,6 +99,50 @@ nav a.active {
     border-bottom: 3px solid #e09137f9;
 }
 
+/* Dropdown menu */
+.nav-dropdown {
+    position: relative;
+}
+
+.nav-dropdown > a {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: antiquewhite;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    padding: 0.8rem 0;
+    min-width: 28rem;
+    z-index: 2000;
+    border: 1px solid rgba(90, 74, 59, 0.15);
+}
+
+.nav-dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 0.8rem 2rem;
+    font-size: 1.2rem;
+    color: #333;
+    text-transform: none;
+    border-bottom: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    white-space: nowrap;
+}
+
+.dropdown-menu a:hover {
+    background-color: rgba(224, 145, 55, 0.12);
+    color: #e09137f9;
+    border-bottom: none;
+}
+
 /* Khi màn hình hẹp: cho phép chữ trong link xuống dòng tại <wbr> */
 @media (max-width: 1400px) {
     nav a {
@@ -344,7 +388,6 @@ img {
 }
 
 .cover-letter-resume p,
-.professional-learning p,
 .references p {
     font-size: 4rem;
     margin-bottom: 2rem;
@@ -352,6 +395,55 @@ img {
     font-weight: 500;
     line-height: 1.5;
     text-align: center;
+}
+
+/* CPL Cards */
+.cpl-card {
+    background-color: #fff9f0;
+    border-left: 5px solid #e09137f9;
+    border-radius: 10px;
+    padding: 3rem 4rem;
+    margin: 3rem 0;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.06);
+    scroll-margin-top: 120px;
+}
+
+.cpl-card h2 {
+    font-size: 3rem;
+    color: #e09137f9;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.cpl-card h3 {
+    font-size: 2rem;
+    color: #5a4a3b;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.cpl-card p {
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    font-family: Georgia, serif;
+    text-align: justify;
+}
+
+.cpl-card ul {
+    list-style-type: disc;
+    padding-left: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.cpl-card ul li {
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.8;
+    margin-bottom: 1rem;
+    font-family: Georgia, serif;
 }
 
 .btn {

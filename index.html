@@ -1,182 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-        />
-        <link rel="stylesheet" href="style.css" />
-        <title>Elle Profile</title>
-    </head>
 
-    <body>
-        <header>
-            <div class="header-content">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Elle Profile</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
             <a href="#" class="logo">Elle</a>
             <nav>
                 <a href="#home" class="active">Home</a>
                 <a href="#coverLetter&Resume">Cover Letter &<wbr> Resume</a>
                 <a href="#teaching&learningphilosophy">Teaching & Learning<wbr> Philosophy</a>
-                <a href="#curriculum&Pedagogy">Curriculum &<wbr> Pedagogy</a>
-                <a href="#continuosProfessionalLearning"
-                    >Continuous Professional<wbr> Learning</a
-                >
+                <div class="nav-dropdown">
+                    <a href="#curriculum&Pedagogy">Curriculum &<wbr> Pedagogy</a>
+                    <div class="dropdown-menu">
+                        <a href="#cp-pedagogical-documentation">Pedagogical Documentation</a>
+                        <a href="#cp-learning-story">Learning Story</a>
+                        <a href="#cp-detailed-plans">Detailed Responsive Inclusive Plans</a>
+                        <a href="#cp-meaningful-artifacts">Meaningful Artifacts</a>
+                        <a href="#cp-resources">Resources</a>
+                    </div>
+                </div>
+                <div class="nav-dropdown">
+                    <a href="#continuosProfessionalLearning">Continuous Professional<wbr> Learning</a>
+                    <div class="dropdown-menu">
+                        <a href="#cpl-children">Children</a>
+                        <a href="#cpl-families">Families</a>
+                        <a href="#cpl-colleagues">Colleagues</a>
+                        <a href="#cpl-communities">Communities</a>
+                        <a href="#cpl-environment">Environment</a>
+                    </div>
+                </div>
                 <a href="#references">References</a>
             </nav>
-            </div>
-        </header>
-        <section class="home" id="home">
-            <div class="home-img">
-                <img src="img\elle2.jpg" alt="" class="hidden" />
-            </div>
-            <div class="home-content slide-up">
-                <h1>About Me</h1>
-                <h3>Hi There,</h3>
-                <p>
-                    My name is Thi Bich Phuong Dao and I am currently pursuing
-                    an Early Childhood Education Diploma at Humber Polytechnic.
-                    Through my studies, I have built a strong foundation in
-                    child development, play-based learning, and inclusive
-                    education. My experiences in classroom observations, lesson
-                    planning, and interactive activities have allowed me to
-                    support children's growth in meaningful ways. I have also
-                    developed skills in responsive caregiving and positive
-                    guidance to create safe and engaging learning environments.
-                    I have a deep understanding of early learning frameworks and
-                    child-centered teaching approaches. I value collaboration
-                    with families and educators to provide hands-on,
-                    developmentally appropriate experiences that nurture
-                    children's curiosity, independence, and overall well-being.
-                </p>
-            </div>
-        </section>
-        <div class="future-goals slide-up">
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="img\elle2.jpg" alt="" class="hidden" />
+        </div>
+        <div class="home-content slide-up">
+            <h1>About Me</h1>
+            <h3>Hi There,</h3>
             <p>
-                Looking forward, I aim to create inclusive and supportive
-                learning environments where all children feel valued and
-                encouraged to explore. I am particularly passionate about
-                integrating arts-based learning and creative expression into
-                early education, using storytelling, music, and interactive play
-                to enhance children's development. My goal is to make a lasting,
-                positive impact by fostering a love for learning in a safe,
-                engaging, and nurturing space.
+                My name is Thi Bich Phuong Dao and I am currently pursuing
+                an Early Childhood Education Diploma at Humber Polytechnic.
+                Through my studies, I have built a strong foundation in
+                child development, play-based learning, and inclusive
+                education. My experiences in classroom observations, lesson
+                planning, and interactive activities have allowed me to
+                support children's growth in meaningful ways. I have also
+                developed skills in responsive caregiving and positive
+                guidance to create safe and engaging learning environments.
+                I have a deep understanding of early learning frameworks and
+                child-centered teaching approaches. I value collaboration
+                with families and educators to provide hands-on,
+                developmentally appropriate experiences that nurture
+                children's curiosity, independence, and overall well-being.
             </p>
         </div>
+    </section>
+    <div class="future-goals slide-up">
+        <p>
+            Looking forward, I aim to create inclusive and supportive
+            learning environments where all children feel valued and
+            encouraged to explore. I am particularly passionate about
+            integrating arts-based learning and creative expression into
+            early education, using storytelling, music, and interactive play
+            to enhance children's development. My goal is to make a lasting,
+            positive impact by fostering a love for learning in a safe,
+            engaging, and nurturing space.
+        </p>
+    </div>
 
-        <img src="img\screne4.jpg" alt="" class="slide-up" />
+    <img src="img\screne4.jpg" alt="" class="slide-up" />
 
-        <div class="land-acknowledgement slide-up">
-            <hr class="custom-line" />
-            <h2>Land Acknowledgement</h2>
+    <div class="land-acknowledgement slide-up">
+        <hr class="custom-line" />
+        <h2>Land Acknowledgement</h2>
+        <p>
+            I would like to acknowledge that I am a student studying at
+            Humber College located on the traditional and Treaty 13, 1805
+            lands of the Mississaugas of the Credit. This territory is also
+            subject to the Dish with One Spoon Wampum, a covenant agreement
+            between Anishinaabeg, Haudenosaunee, Wendat peoples and allied
+            nations to peaceably share the land and all its resources.
+        </p>
+    </div>
+    <section class="cover-letter-resume" id="coverLetter&Resume">
+        <h1>Cover Letter & Resume</h1>
+        <p class="slide-up">COMING SOON</p>
+    </section>
+    <section class="teaching-learning-philosophy" id="teaching&learningphilosophy">
+        <h1>Teaching & Learning Philosophy</h1>
+        <img src="img/philosophy.jpg" alt="Teaching & Learning Philosophy" class="slide-up" />
+        <div class="philosophy-text slide-up">
+            <h2>Learning as a Journey</h2>
             <p>
-                I would like to acknowledge that I am a student studying at
-                Humber College located on the traditional and Treaty 13, 1805
-                lands of the Mississaugas of the Credit. This territory is also
-                subject to the Dish with One Spoon Wampum, a covenant agreement
-                between Anishinaabeg, Haudenosaunee, Wendat peoples and allied
-                nations to peaceably share the land and all its resources.
+                I believe teaching and learning are not a straight path, but an ongoing journey shaped by reflection,
+                relationships, and experience. Children are capable, curious learners who build knowledge through
+                exploration, play, and social interaction (Vygotsky, 1978). My role as an educator is to support rather
+                than control learning by observing carefully, listening deeply, and offering guidance when needed
+                (Dewey, 1938). I also believe families and communities are essential to children’s development because
+                learning is deeply connected to relationships, culture, and lived experiences (Bronfenbrenner, 1979).
+                The environment is another important teacher, as accessible materials and thoughtful spaces can invite
+                independence, creativity, and engagement (Edwards et al., 2012). Overall, my philosophy is grounded in
+                creating inclusive, responsive spaces where children feel safe, valued, and free to become themselves.
+            </p>
+
+        </div>
+    </section>
+    <section class="curriculum-pedagogy" id="curriculum&Pedagogy">
+        <h1>Curriculum & Pedagogy</h1>
+        <img src="img/pedagogical.jpg" alt="Curriculum & Pedagogy" class="slide-up" />
+        <div class="pedagogy-text slide-up">
+            <p>
+                This piece of pedagogical documentation reflects how I try to slow down and truly listen to children's
+                ideas in my daily practice. I chose to include this experience in my portfolio because it shows how
+                children learn through play when they are given time, space, and trust. Instead of directing their play,
+                I stayed present and followed their thinking as they explored building, balance, and creativity
+                together. This experience connects to my belief that children are capable, curious, and full of
+                potential, and that they construct knowledge through meaningful, hands-on experiences (Ontario Ministry
+                of Education, 2014a). As an educator, I see my role as creating a supportive environment, asking
+                open-ended questions, and extending learning while respecting children's independence and agency.
             </p>
         </div>
-        <section class="cover-letter-resume" id="coverLetter&Resume">
-            <h1>Cover Letter & Resume</h1>
-            <p class="slide-up">COMING SOON</p>
-        </section>
-        <section class="teaching-learning-philosophy" id="teaching&learningphilosophy">
-            <h1>Teaching & Learning Philosophy</h1>
-            <img src="img/philosophy.jpg" alt="Teaching & Learning Philosophy" class="slide-up" />
-            <div class="philosophy-text slide-up">
-                <h2>Learning as a Journey</h2>
-                <p>
-                    When I think about teaching and learning, I no longer imagine a straight path with clear steps and fixed outcomes. Instead, I see it as a journey that moves in different directions, sometimes slowly, sometimes unexpectedly. Through my practicum experiences, I have come to understand that learning is not something we control, but something we support. This realization has changed the way I see children, and more importantly, the way I see myself as an educator.
-                </p>
-                <p>
-                    I believe children are naturally capable and full of ideas. They are not waiting to be taught everything. They are already thinking, questioning, and making meaning from the world around them. During my practicum, I noticed that when children were given time and freedom to explore, their engagement became deeper and more genuine. They were not just participating in an activity, they were fully involved in it. This reflects Vygotsky's idea that learning develops through social interaction and shared experiences, where children actively construct understanding rather than passively receive it (Vygotsky, 1978). Seeing this in real moments helped me trust children more and step away from the idea that I always need to direct their learning.
-                </p>
-                <p>
-                    I believe my role as an educator is to support, not control, the learning process. At the beginning of my placement, I often felt responsible for guiding children step by step, making sure everything went as planned. However, I started to realize that when I stepped back, children became more confident in making their own decisions. They solved problems in ways I did not expect. That was the moment I understood that teaching is not about having all the answers. It is about knowing when to listen, when to observe, and when to gently support. This perspective connects with Dewey's belief that education should be grounded in meaningful experiences, where learning comes from doing rather than being instructed (Dewey, 1938). Letting go of control was not easy for me, but it was necessary for children to truly lead their own learning.
-                </p>
-                <p>
-                    I believe families are an essential part of a child's learning journey. Every child brings their own background, culture, and experiences into the classroom. These are not separate from learning, they are the foundation of it. Through my practicum, I became more aware that building trust with families is just as important as building relationships with children. Bronfenbrenner's ecological systems theory reminds us that development is shaped by multiple layers of relationships and environments, especially the family context (Bronfenbrenner, 1979). This understanding helped me see that I am not teaching a child in isolation. I am supporting a child who is deeply connected to their family and community.
-                </p>
-                <p>
-                    I believe the community and social environment influence how children see themselves and others. Children are constantly observing the world around them. They notice differences, relationships, and how people are treated. This has made me reflect on the importance of creating inclusive environments where every child feels seen and valued. It is not only about what we teach, but also about what children experience and how they feel in that space.
-                </p>
-                <p>
-                    I believe the environment is not just a background, but an active part of learning. During my practicum, I saw how the arrangement of materials and space could either invite exploration or limit it. When materials were accessible and thoughtfully presented, children became more independent and engaged. This aligns with the Reggio Emilia approach, which views the environment as the "third teacher," recognizing that learning happens through interaction with space, materials, and others (Edwards, Gandini, & Forman, 2012). This perspective has changed how I think about planning. Instead of focusing only on activities, I now think about how the environment itself can support learning.
-                </p>
-                <p>
-                    Looking back, my philosophy has grown from my own experiences of trying, adjusting, and reflecting. I am still learning how to balance guidance and freedom, structure and flexibility. I do not see teaching as reaching a final point, but as continuing to grow alongside the children. I want to remain someone who listens carefully, reflects honestly, and creates spaces where children feel safe to explore, express, and become who they are.
-                </p>
-            </div>
-        </section>
-        <section class="curriculum-pedagogy" id="curriculum&Pedagogy">
-            <h1>Curriculum & Pedagogy</h1>
-            <img src="img/pedagogical.jpg" alt="Curriculum & Pedagogy" class="slide-up" />
-            <div class="pedagogy-text slide-up">
-                <p>
-                    This piece of pedagogical documentation reflects how I try to slow down and truly listen to children's ideas in my daily practice. I chose to include this experience in my portfolio because it shows how children learn through play when they are given time, space, and trust. Instead of directing their play, I stayed present and followed their thinking as they explored building, balance, and creativity together. This experience connects to my belief that children are capable, curious, and full of potential, and that they construct knowledge through meaningful, hands-on experiences (Ontario Ministry of Education, 2014a). As an educator, I see my role as creating a supportive environment, asking open-ended questions, and extending learning while respecting children's independence and agency.
-                </p>
-            </div>
-        </section>
-        <section
-            class="professional-learning"
-            id="continuosProfessionalLearning"
-        >
-            <h1>Continuous Professional Learning</h1>
-            <p class="slide-up">COMING SOON</p>
-        </section>
+    </section>
+    <section class="professional-learning" id="continuosProfessionalLearning">
+        <h1>Continuous Professional Learning</h1>
 
-        <section class="references" id="references">
-            <h1>References</h1>
-            <p class="slide-up">COMING SOON</p>
-        </section>
+        <div class="cpl-card slide-up" id="cpl-children">
+            <h2>1. Children</h2>
+            <h3>Goal:</h3>
+            <p>
+                In order to better understand and support children's thinking, I will intentionally use at least two
+                open-ended questions during play each day, while paying close attention to how children respond,
+                throughout my first three months in practice.
+            </p>
+            <h3>Strategies:</h3>
+            <ul>
+                <li>I will keep a small note on my phone or notebook of questions that feel natural to me so I can use
+                    them in the moment without interrupting the flow of play.</li>
+                <li>At the end of each week, I will reflect on which questions actually sparked conversation or
+                    thinking, and which ones felt forced, so I can adjust my approach.</li>
+            </ul>
+        </div>
 
-        <hr class="custom-line-footer" />
-        <footer>
-            <div class="footer-text">
+        <div class="cpl-card slide-up" id="cpl-families">
+            <h2>2. Families</h2>
+            <h3>Goal:</h3>
+            <p>
+                In order to build genuine and trusting relationships with families, I will make a consistent effort to
+                connect with each family at least once a week through small, meaningful interactions or updates during
+                my first three months.
+            </p>
+            <h3>Strategies:</h3>
+            <ul>
+                <li>I will share short, real moments from the child's day (not just general updates) so families can
+                    feel more connected to their child's experiences.</li>
+                <li>I will take time to listen to families' perspectives and slowly incorporate what I learn about
+                    their child into my daily interactions.</li>
+            </ul>
+        </div>
+
+        <div class="cpl-card slide-up" id="cpl-colleagues">
+            <h2>3. Colleagues</h2>
+            <h3>Goal:</h3>
+            <p>
+                In order to grow more confident in my role and learn from others, I will initiate at least one
+                reflective conversation each week with a colleague about what I am noticing in the classroom during my
+                first three months.
+            </p>
+            <h3>Strategies:</h3>
+            <ul>
+                <li>I will be honest about what I am unsure about and ask for feedback instead of trying to figure
+                    everything out on my own.</li>
+                <li>I will also share my own observations and ideas, even if they are not fully formed, to build more
+                    open and collaborative communication.</li>
+            </ul>
+        </div>
+
+        <div class="cpl-card slide-up" id="cpl-communities">
+            <h2>4. Communities</h2>
+            <h3>Goal:</h3>
+            <p>
+                In order to help children feel more connected to the world around them, I will introduce at least one
+                element from the community (such as materials, stories, or experiences) each month that reflects their
+                lives and backgrounds during my first three months.
+            </p>
+            <h3>Strategies:</h3>
+            <ul>
+                <li>I will pay attention to what children talk about (places, people, experiences) and use that as a
+                    starting point to bring the community into the classroom.</li>
+                <li>I will explore simple ways to include diverse and meaningful materials that reflect different
+                    cultures and experiences in an authentic way.</li>
+            </ul>
+        </div>
+
+        <div class="cpl-card slide-up" id="cpl-environment">
+            <h2>5. Environment</h2>
+            <h3>Goal:</h3>
+            <p>
+                In order to create a space that truly reflects children's interests, I will intentionally make small
+                changes to the environment each week based on what I observe in their play during my first three
+                months.
+            </p>
+            <h3>Strategies:</h3>
+            <ul>
+                <li>I will focus on observing before changing anything, so that my decisions are based on what children
+                    are actually interested in, not what I assume.</li>
+                <li>After making changes, I will watch how children respond and use that to decide whether to keep,
+                    adjust, or remove materials.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="references" id="references">
+        <h1>References</h1>
+        <p class="slide-up">COMING SOON</p>
+    </section>
+
+    <hr class="custom-line-footer" />
+    <footer>
+        <div class="footer-text">
+            <p>
+                All content presented in the portfolio is original,
+                accurate, current, and cited where necessary.
+            </p>
+        </div>
+        <div class="footer-profile">
+            <div class="footer-content">
+                <h3>Elle Dao</h3>
                 <p>
-                    All content presented in the portfolio is original,
-                    accurate, current, and cited where necessary.
+                    <i class="fas fa-map marker-alt"></i> Toronto, Ontario,
+                    Canada
                 </p>
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    daothibichphuong215@gmail.com
+                </p>
+                <p><i class="fas fa-phone"></i> 4376083957</p>
             </div>
-            <div class="footer-profile">
-                <div class="footer-content">
-                    <h3>Elle Dao</h3>
-                    <p>
-                        <i class="fas fa-map marker-alt"></i> Toronto, Ontario,
-                        Canada
-                    </p>
-                    <p>
-                        <i class="fas fa-envelope"></i>
-                        daothibichphuong215@gmail.com
-                    </p>
-                    <p><i class="fas fa-phone"></i> 4376083957</p>
-                </div>
-                <div class="socials-icons">
-                    <h3>Follow Me</h3>
-                    <a href="https://www.facebook.com/bich.phuong.469536#">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                    <a href="https://www.instagram.com/_dtbp21/">
-                        <i class="fab fa-instagram"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                    <a href="#">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </div>
-                <span class="footer-bottom"
-                    >© 2025 Elle. All rights reserved. <br />Designed by Elle.
-                    <br />
-                    Powered and secured by
-                    <a href="https://github.com/bitanut07">BiTaNut</a>
-                </span>
+            <div class="socials-icons">
+                <h3>Follow Me</h3>
+                <a href="https://www.facebook.com/bich.phuong.469536#">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/_dtbp21/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-linkedin"></i>
+                </a>
             </div>
-        </footer>
-    </body>
-    <script src="js/script.js"></script>
+            <span class="footer-bottom">© 2025 Elle. All rights reserved. <br />Designed by Elle.
+                <br />
+                Powered and secured by
+                <a href="https://github.com/bitanut07">BiTaNut</a>
+            </span>
+        </div>
+    </footer>
+</body>
+<script src="js/script.js"></script>
+
 </html>
