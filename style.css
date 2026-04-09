@@ -457,6 +457,83 @@ img {
     font-family: Georgia, serif;
 }
 
+/* ===== Learning Story ===== */
+.ls-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 3rem;
+    background: linear-gradient(135deg, #fdf6ec, #fef0db);
+    border: 1px solid rgba(224, 145, 55, 0.2);
+    border-radius: 12px;
+    padding: 2rem 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.ls-header p {
+    font-size: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+    color: #4a3b2e !important;
+    text-align: left !important;
+    line-height: 1.6 !important;
+}
+
+.ls-header p strong {
+    color: #5a4a3b;
+    font-weight: 700;
+}
+
+.ls-image-wrapper {
+    margin: 2.5rem auto;
+    text-align: center;
+    max-width: 550px;
+}
+
+.ls-image-wrapper .ls-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.12);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ls-image-wrapper .ls-image:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.18);
+}
+
+.ls-section {
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.ls-section h3 {
+    font-size: 2rem;
+    color: #5a4a3b;
+    font-weight: 700;
+    font-style: italic;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.6rem;
+    border-bottom: 2px solid rgba(224, 145, 55, 0.3);
+    display: inline-block;
+}
+
+.ls-section p {
+    font-size: 1.6rem;
+    color: #333;
+    line-height: 1.9;
+    margin-bottom: 1.5rem;
+    font-family: Georgia, serif;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .ls-header {
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+        padding: 1.5rem;
+    }
+}
+
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
