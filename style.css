@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -23,9 +24,11 @@ html {
 .show {
     opacity: 1;
 }
+
 .slide-up {
     opacity: 0;
-    transform: translateY(50px); /* Dịch xuống 50px */
+    transform: translateY(50px);
+    /* Dịch xuống 50px */
     transition: opacity 1.2s ease-out, transform 1.2s ease-out;
 }
 
@@ -71,6 +74,7 @@ header {
     cursor: pointer;
     transition: 0.5s ease;
 }
+
 .logo:hover {
     transform: scale(1.1);
 }
@@ -104,7 +108,7 @@ nav a.active {
     position: relative;
 }
 
-.nav-dropdown > a {
+.nav-dropdown>a {
     display: block;
 }
 
@@ -154,7 +158,8 @@ nav a.active {
 section {
     min-height: 100vh;
     padding: 5rem 9% 5rem;
-    scroll-margin-top: 100px; /* Khoảng trống để tránh bị che */
+    scroll-margin-top: 100px;
+    /* Khoảng trống để tránh bị che */
 }
 
 .home {
@@ -227,12 +232,17 @@ img {
 }
 
 .land-acknowledgement .custom-line {
-    width: 70%; /* Chiều dài bằng với phần div */
-    height: 2px; /* Độ dày của đường kẻ */
-    background-color: black; /* Màu đen */
+    width: 70%;
+    /* Chiều dài bằng với phần div */
+    height: 2px;
+    /* Độ dày của đường kẻ */
+    background-color: black;
+    /* Màu đen */
     border: none;
-    margin-bottom: 1rem; /* Khoảng cách giữa đường kẻ và tiêu đề */
-    margin-left: 15%; /* Đẩy sang phải 15% */
+    margin-bottom: 1rem;
+    /* Khoảng cách giữa đường kẻ và tiêu đề */
+    margin-left: 15%;
+    /* Đẩy sang phải 15% */
 }
 
 .land-acknowledgement {
@@ -290,6 +300,7 @@ img {
     align-items: center;
     color: black;
 }
+
 .footer-text p {
     text-align: center;
     font-size: 1.5rem;
@@ -501,6 +512,7 @@ img {
 }
 
 @keyframes words {
+
     0%,
     100% {
         content: 'Student';
