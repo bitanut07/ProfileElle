@@ -610,8 +610,9 @@ img {
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    margin: 0 0 1.5rem 0;
+    margin: 0 auto 1.5rem auto;
     display: block;
+    text-align: center !important;
 }
 
 .resource-img:hover {
@@ -625,6 +626,7 @@ img {
     font-style: italic;
     margin-bottom: 1rem;
     line-height: 1.6;
+    text-align: center !important;
 }
 
 .resource-caption {
@@ -687,7 +689,7 @@ img {
 
 .artifact-single-image {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .artifact-img {
