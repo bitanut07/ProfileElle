@@ -398,14 +398,44 @@ img {
     font-family: Georgia, serif;
 }
 
-.cover-letter-resume p,
-.references p {
+.cover-letter-resume p {
     font-size: 4rem;
     margin-bottom: 2rem;
     color: black;
     font-weight: 500;
     line-height: 1.5;
     text-align: center;
+}
+
+.resume-section-title {
+    font-size: 3rem;
+    color: #e09137f9;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+.references p {
+    font-size: 1.8rem;
+    color: black;
+    font-weight: 500;
+    line-height: 1.7;
+    text-align: left;
+    margin-bottom: 1.5rem;
+    font-family: Georgia, serif;
+    font-style: italic;
+    padding-left: 3.5rem;
+    position: relative;
+}
+
+.references p::before {
+    content: "-";
+    position: absolute;
+    left: 1.5rem;
+    color: #e09137f9;
+    font-weight: 700;
+    font-style: normal;
 }
 
 /* CPL Cards */
