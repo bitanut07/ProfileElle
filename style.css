@@ -684,7 +684,7 @@ img {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
-    align-items: start;
+    align-items: stretch;
 }
 
 .artifact-single-image {
@@ -695,7 +695,8 @@ img {
 .artifact-img {
     width: 100%;
     max-width: 500px;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
